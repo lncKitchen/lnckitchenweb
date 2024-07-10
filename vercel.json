@@ -1,5 +1,14 @@
 {
-  "rewrites": [
-    { "source": "/success", "destination": "/success" }
-  ]
-}
+    "routes" : [
+        {
+            "src" : "/[^.]+",
+            "dest" : "/"
+        }
+    ],
+    "rewrites": [
+      { "source": "/success",
+        "destination": "/success" 
+      }
+    ]
+  }
+  
